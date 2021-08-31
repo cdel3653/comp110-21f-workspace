@@ -1,4 +1,8 @@
 """Numeric Operators Program."""
-left = int(input("left-hand side: "))
-right = int(input("right-hand side: "))
-print(str(left) + " ** " + str(right) + " is " + str(left**right))
+__author__: str = ("730320843")
+left_hand: = int(input("left-hand side: "))
+right_hand: = int(input("right-hand side: "))
+print(str(left_hand) + " ** " + str(right_hand) + " is " + str(left_hand**right_hand))
+print(str(left_hand) + " / " + str(right_hand) + " is " + str(left_hand / right_hand))
+print(str(left_hand) + " // " + str(right_hand) + " is " + str(left_hand // right_hand))
+print(str(left_hand) + " % " + str(right_hand) + " is " + str(left_hand // right_hand))
