@@ -19,11 +19,11 @@ statement_four = "Don’t pursue happiness – create it."
 message_range = randint(0, 3)
 print("Your fortune cookie says...")
 if message_range == 0:
-        print(statement_one)
+    print(statement_one)
 elif message_range == 1:
-        print(statement_two)
+    print(statement_two)
 elif message_range == 2:
-        print(statement_three)
+    print(statement_three)
 elif message_range == 3:
-        print(statement_four)
+    print(statement_four)
 print("Now, go spread positive vibes!")
