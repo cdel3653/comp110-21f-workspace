@@ -20,6 +20,7 @@ def greet() -> None:
     print(player)
     return None
 
+
 """Its Game Time!"""
 
 
@@ -66,6 +67,9 @@ def main() -> None:
         continue_choice = input("Would you like to continue the game? (y/n)")
         if continue_choice == "n":
             current_game = False
+
+    """End of Game Updating."""       
+
     print(f"Game over! {CLOWN_EMOJI}")
     print(f"High score: {points}")
     return None
