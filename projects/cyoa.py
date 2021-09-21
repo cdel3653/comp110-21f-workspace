@@ -3,23 +3,23 @@
 __author__ = "730320843"
 
 import random
-player = "name"
-points = 1
+player: str
+points: int
 CELEBRATORY_EMOJI = "\U0001F973"
 DUCK_EMOJI = "\U0001F986"
 NOICE_EMOJI = "\U0001F44C"
 CLOWN_EMOJI = "\U0001F921"
 
-
-def greet():
+"""Greeting to Player."""
+def greet() -> None:
     print("Hi! Welcone to Flip Your Own Adventure; the coin toss game where the fun is endless. You will be asked initially how many times you would like to flip your coin. You can try once and play it safe, or as many times as you would like to test your luck!")
     global player
     player = input("Enter Player ID: ")
     print(player)
     return None
 
-
-def main():
+"""Its Game Time!"""
+def main() -> None:
     current_game = True
     greet()
     global points
