@@ -11,6 +11,8 @@ NOICE_EMOJI = "\U0001F44C"
 CLOWN_EMOJI = "\U0001F921"
 
 """Greeting to Player."""
+
+
 def greet() -> None:
     print("Hi! Welcone to Flip Your Own Adventure; the coin toss game where the fun is endless. You will be asked initially how many times you would like to flip your coin. You can try once and play it safe, or as many times as you would like to test your luck!")
     global player
@@ -19,6 +21,8 @@ def greet() -> None:
     return None
 
 """Its Game Time!"""
+
+
 def main() -> None:
     current_game = True
     greet()
